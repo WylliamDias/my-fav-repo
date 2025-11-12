@@ -1,16 +1,25 @@
-# React + Vite
+# My favorite repository
+This app can be used to favorite some GitHub repositories that you like.
+You will have two pages:
+1. The first one contains the list of apps that you already favorited and a input, so you can add more of them.
+2. With your list of favorite apps, you can click on them to get more information, the focus of this app is listing their issues, you are able to filter them by "open", "closed" or "all". The listed issues are links to the real issue, you can also click them to get more information.
+Also: Favorited repositories will be added to localStorage, so you can refresh the page without losing them.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simples web application made mainly with ReactJS and some libraries that are pretty cool, like:
+- Axios - for easier http requests;
+- react-router - for internal SPA routing;
+- styled-components - for easier component styling and scoped CSS.
+*It also includes the use of GitHub API.*
 
-Currently, two official plugins are available:
+This app was made using the basic template generation with vite.
+"yarn create vite --template react"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run it locally you can do "yarn dev", and to see it on another dispositives you can do "yarn dev --host", you may need to create a new rule on the windows firewall (if you are using windows) so the external request (maybe from your phone) can be done.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Some reliable links:
+GitHub API             - https://docs.github.com/en/rest?apiVersion=2022-11-28
+React docs             - https://react.dev/
+Vite docs              - https://vite.dev/
+React-Router docs      - https://reactrouter.com/start/declarative/routing
+Styled-components docs - https://styled-components.com/docs
+Axios docs             - https://axios-http.com/docs/intro
