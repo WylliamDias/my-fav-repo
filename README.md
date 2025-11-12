@@ -17,9 +17,9 @@ This app was made using the basic template generation with vite.
 To run it locally you can do "yarn dev", and to see it on another dispositives you can do "yarn dev --host", you may need to create a new rule on the windows firewall (if you are using windows) so the external request (maybe from your phone) can be done.
 
 Some reliable links:
-GitHub API             - https://docs.github.com/en/rest?apiVersion=2022-11-28
-React docs             - https://react.dev/
-Vite docs              - https://vite.dev/
-React-Router docs      - https://reactrouter.com/start/declarative/routing
-Styled-components docs - https://styled-components.com/docs
-Axios docs             - https://axios-http.com/docs/intro
+- GitHub API             - https://docs.github.com/en/rest?apiVersion=2022-11-28
+- React docs             - https://react.dev/
+- Vite docs              - https://vite.dev/
+- React-Router docs      - https://reactrouter.com/start/declarative/routing
+- Styled-components docs - https://styled-components.com/docs
+- Axios docs             - https://axios-http.com/docs/intro
